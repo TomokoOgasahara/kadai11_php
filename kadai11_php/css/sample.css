@@ -1,0 +1,53 @@
+html, body {
+  background-color: #f0f8ff !important; /* 背景色をページ全体に適用 */
+  height: 100%; /* ページ全体の高さを指定 */
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+/* ヘッダーのテキスト */
+.jumbotron {
+  color: black;
+  background-color: #f0f8ff;
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 20px;
+  margin-top: 10px;
+}
+
+/* ヘッダーのテキスト */
+.navbar-header, .form, textarea {
+  color: black;
+  background-color: #f0f8ff;
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+/* 送信ボタンのデザイン */
+.glass-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #333;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1),
+              -8px -8px 15px rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  transition: transform 0.2s ease;
+}
+
+.glass-button:hover {
+  transform: translateY(-2px);
+}
